@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Playwrite DE Grund";
+  background-color:  #00334c;
+
+  display: grid;
+  align-content: space-between;
+  justify-items: center;
+  gap: 40px;
+}
+
+.carta{
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #f4f8ff;
+  padding: 15px;
+  border-radius: 20px;
+
+  max-width: 900px;
+  width: 80%;
+  height: 100%;
+}
+
+.carta h1{
+  z-index: 10;
+  font-size: 1.25rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.carta p{
+  position: relative;
+  z-index: 10;
+  font-size: 1rem;
+  line-height: 20px;
+  text-align: justify;
+}
+.div-button button {
+  font-weight: 800;
+  font-style: normal;
+  transition: all 0.1s linear;
+  background-color: transparent;
+  border: solid 2px #f4f8ff;
+  border-radius: 4px;
+  color: #f4f8ff;
+  display: inline-block;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  margin: 5px;
+  padding: 10px;
+  line-height: 1em;
+  text-decoration:  none;
+  min-width: 120px;
+  outline: none;
+}
+.div-button button:hover {
+  background-color: #f4f8ff;
+  color: #0077b2;
+}
+
+.carta img {
+  position: absolute;
+  width: 5%;
+  min-width: 5rem;
+  right: 5%;
+  z-index: 1;
+  opacity: 0.6;
+}
