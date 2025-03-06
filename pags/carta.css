@@ -21,7 +21,7 @@ body{
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: #f4f8ff;
-  padding: 15px;
+  padding: 15px 25px;
   border-radius: 20px;
 
   max-width: 900px;
@@ -39,8 +39,14 @@ body{
   position: relative;
   z-index: 10;
   font-size: 1rem;
-  line-height: 20px;
+  line-height: 25px;
   text-align: justify;
+}
+.carta h2{
+  text-align: end;
+  z-index: 10;
+  font-size: 1.125rem;
+  margin-top: 20px;
 }
 .div-button button {
   font-weight: 800;
@@ -65,11 +71,20 @@ body{
   color: #0077b2;
 }
 
-.carta img {
+.carta > img {
   position: absolute;
   width: 5%;
   min-width: 5rem;
   right: 5%;
   z-index: 1;
-  opacity: 0.45;
+  opacity: 0.4;
+}
+.carta > div {
+  display: flex;
+  justify-content: center;
+}
+.carta > div > img {
+  margin-top: 20px;
+  width: 40%;
+  min-width: 15rem;
 }
